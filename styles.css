@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -14,4 +17,58 @@ body {
   background-image: url("./images/top-bg.jpg");
   background-size: cover;
   background-position: center;
+  transition: all 0.2s ease-out;
+}
+
+/* Utility Classes */
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* NAVBAR */
+.navbar {
+  height: 10vh;
+  max-height: 50px;
+  width: 100%;
+  background-color: #00000095;
+}
+
+.navbar>ul {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar>ul>li {
+  height: 100%;
+  list-style: none;
+  margin: 0 10px;
+}
+
+.nav-button {
+  text-decoration: none;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  color: #fff;
+  height: 100%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-button:hover {
+  background-color: #ff8c00bb;
+}
+.nav-active {
+  background-color: #ff8c00bb;
 }
