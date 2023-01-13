@@ -39,6 +39,7 @@ body {
   max-height: 50px;
   width: 100%;
   background-color: #00000095;
+  user-select: none;
 }
 
 .navbar>ul {
@@ -71,4 +72,5 @@ body {
 }
 .nav-active {
   background-color: #ff8c00bb;
+  border-bottom: 2px solid orange;
 }
